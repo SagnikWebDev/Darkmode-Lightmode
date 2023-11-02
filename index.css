@@ -1,0 +1,42 @@
+* {
+  scroll-behavior: smooth;
+}
+.bg-blackcolor {
+  background-color: black;
+  color: white;
+  transition: 500ms all ease-in;
+}
+.bg-whitecolor {
+  background-color: white;
+  color: black;
+  transition: 500ms all ease-in;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40px;
+}
+.info-div {
+  padding-inline: 40px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+}
+@media screen and (max-width: 500px) {
+  #main-header-h1,
+  i {
+    font-size: 22px;
+  }
+  #main-header-h1 {
+    word-wrap: break-word;
+  }
+}
